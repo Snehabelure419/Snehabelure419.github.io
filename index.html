@@ -27,8 +27,8 @@
 
 	<style>
 		/*======================================
-//--//-->   ABOUT
-======================================*/
+        //--//-->   ABOUT
+        ======================================*/
 
 		.about-mf .box-shadow-full {
 			padding-top: 4rem;
@@ -43,7 +43,6 @@
 			margin-left: 10px;
 		}
 
-
 		.skill-mf .progress {
 			/* background-color: #cde1f8; */
 			margin: .5rem 0 1.2rem 0;
@@ -55,7 +54,6 @@
 			height: .7rem;
 			background-color: #ffbd39;
 		}
-
 
 		/* Animation styles */
 		#typing-animation {
@@ -99,9 +97,7 @@
 			}
 		}
 
-
 		/* project image zoom effect */
-
 		.zoom-effect {
 			overflow: hidden;
 			transition: transform 0.3s ease-out;
@@ -109,6 +105,28 @@
 
 		.zoom-effect:hover {
 			transform: scale(1.1);
+		}
+
+		/* Show full profile image on mobile */
+		@media only screen and (max-width: 768px) {
+			.img {
+				background-size: contain !important;
+				background-position: center center !important;
+				background-repeat: no-repeat !important;
+				width: 100vw !important;
+				height: 100vh !important;
+				min-height: 100vh !important;
+				max-height: 100vh !important;
+			}
+
+			.one-third {
+				width: 100vw !important;
+				min-width: 100vw !important;
+				max-width: 100vw !important;
+				height: 100vh !important;
+				min-height: 100vh !important;
+				max-height: 100vh !important;
+			}
 		}
 	</style>
 
